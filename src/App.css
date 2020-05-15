@@ -1,0 +1,43 @@
+:root {
+  --mainDark: #343a40;
+  --mainGrey: rgb(243, 230, 155);
+  --mainLightGrey: rgba(172, 172, 172);
+  --mainWhite: #fff;
+  --mainYellow: #ffc107;
+  --mainBlue: #007bff;
+}
+
+.navbar-toggler:focus {
+  outline: none;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+body {
+  background: url(./components/pages/bak.jpg) no-repeat center center fixed;
+  -webkit-background: cover;
+  -moz-background: cover;
+  -o-background: cover;
+  background: cover;
+  background-size: 1600px 850px;
+}
+
+.Login-form {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+  height: 100%;
+  color: gold;
+}
+
+.Signup-form {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+  height: 100%;
+  color: gold;
+}
