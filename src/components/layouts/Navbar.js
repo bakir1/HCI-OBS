@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-warning">
-      <Link className="navbar-brand" href="#">
+      <Link className="navbar-brand" to="#">
         Online Bakery Shop
       </Link>
       <button
@@ -23,25 +23,25 @@ function Navbar() {
         <ul className="navbar-nav mr-auto">
           <li className="nav-item ">
             <Link className="nav-link text-black text uppercase" to="/home">
-              Home&nbsp;<i class="fas fa-home"></i>{" "}
+              Home&nbsp;<i className="fas fa-home"></i>{" "}
               <span className="sr-only">(current)</span>
             </Link>
           </li>
           <li className="nav-item">
             <Link className="nav-link text-black text uppercase" to="/products">
-              Products&nbsp;<i class="fas fa-bread-slice"></i>
+              Products&nbsp;<i className="fas fa-bread-slice"></i>
             </Link>
           </li>
           <li className="nav-item">
             <Link className="nav-link text-black text uppercase" to="/about">
-              About
+              About Us
             </Link>
           </li>
 
           <li className="nav-item dropdown">
             <Link
               className="nav-link dropdown-toggle"
-              href="#"
+              to="#"
               id="navbarDropdown"
               role="button"
               data-toggle="dropdown"
@@ -51,26 +51,26 @@ function Navbar() {
               Pages
             </Link>
             <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-              <Link className="dropdown-item" href="#">
+              <Link className="dropdown-item" to="#">
                 Gallery
               </Link>
-              <Link className="dropdown-item" href="#">
+              <Link className="dropdown-item" to="#">
                 Blog
               </Link>
               <div className="dropdown-divider"></div>
-              <Link className="dropdown-item" href="#">
+              <Link className="dropdown-item" to="#">
                 Tutorials
               </Link>
             </div>
           </li>
           <li className="nav-item">
-            <Link
-              className="nav-link disabled"
-              href="#"
-              tabindex="-1"
-              aria-disabled="true"
-            >
-              Receipts(Soon)
+            <Link className="nav-link text-black text uppercase" to="/">
+              Receipts
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link className="nav-link text-black text uppercase" to="/Contact">
+              Contact
             </Link>
           </li>
           <li className="nav-item">

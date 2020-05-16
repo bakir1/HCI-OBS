@@ -7,6 +7,10 @@
   --mainBlue: #007bff;
 }
 
+::-webkit-scrollbar {
+  width: auto;
+}
+
 .navbar-toggler:focus {
   outline: none;
 }
@@ -22,6 +26,7 @@ body {
   -o-background: cover;
   background: cover;
   background-size: 1600px 850px;
+  overflow: overlay;
 }
 
 .Login-form {
@@ -34,6 +39,15 @@ body {
 }
 
 .Signup-form {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+  height: 100%;
+  color: gold;
+}
+
+.Contact-form {
   width: 100%;
   max-width: 330px;
   padding: 15px;

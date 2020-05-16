@@ -13,11 +13,11 @@ class Login extends Component {
         <h3 className="text-center">Welcome</h3>
         <FormGroup>
           <Label>Email</Label>
-          <Input type="email" placeholder="Email" />
+          <Input type="email" placeholder="Email" required />
         </FormGroup>
         <FormGroup>
           <Label>Password</Label>
-          <Input type="password" placeholder="Password" />
+          <Input type="password" placeholder="Password" required />
         </FormGroup>
         <Button className="btn-lg btn-dark btn-block">Log in</Button>
         <div className="text-center pt-3">
