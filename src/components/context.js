@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { placeInfo, reviews, detailInfo, news } from "../data";
-
 const InfoContext = React.createContext();
 
 class InfoProvider extends Component {

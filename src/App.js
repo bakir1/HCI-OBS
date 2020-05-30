@@ -9,6 +9,7 @@ import { Switch, Route } from "react-router-dom";
 //import pages
 import Home from "./components/pages/Home";
 import Products from "./components/pages/Products";
+import Receipts from "./components/pages/Receipts";
 import About from "./components/pages/About";
 import Login from "./components/pages/Login";
 import Signup from "./components/pages/Signup";
@@ -22,6 +23,7 @@ function App() {
         <Route exact path="/home" component={Home} />
         <Route path="/about" component={About} />
         <Route path="/products" component={Products} />
+        <Route path="/Receipts" component={Receipts} />
         <Route path="/Contact" component={Contact} />
         <Route path="/Login" component={Login} />
         <Route path="/Signup" component={Signup} />

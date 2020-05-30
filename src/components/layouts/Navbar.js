@@ -64,7 +64,7 @@ function Navbar() {
             </div>
           </li>
           <li className="nav-item">
-            <Link className="nav-link text-black text uppercase" to="/">
+            <Link className="nav-link text-black text uppercase" to="/Receipts">
               Receipts
             </Link>
           </li>
